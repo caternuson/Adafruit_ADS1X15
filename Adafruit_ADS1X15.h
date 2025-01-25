@@ -162,6 +162,7 @@ public:
   int16_t readADC_Differential_2_3();
   void startComparator_SingleEnded(uint8_t channel, int16_t threshold);
   int16_t getLastConversionResults();
+  float getFsRange();
   float computeVolts(int16_t counts);
   void setGain(adsGain_t gain);
   adsGain_t getGain();
